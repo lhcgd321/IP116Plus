@@ -1,26 +1,21 @@
 //
-//  LoginViewController.m
+//  BaseViewController.m
 //  ip116
 //
 //  Created by kd on 2018/12/11.
 //  Copyright © 2018 ipc. All rights reserved.
 //
 
-#import "LoginViewController.h"
-#import "Masonry.h"
-@interface LoginViewController ()
-{
-    UITextField *_emailTextField;
-    
-}
+#import "BaseViewController.h"
+
+@interface BaseViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *iconImgeView = [[UIImageView alloc] init];
     
 }
 

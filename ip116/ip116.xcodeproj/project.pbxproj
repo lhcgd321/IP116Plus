@@ -14,7 +14,8 @@
 		8A2C800A21BE563300C53AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C800821BE563300C53AA4 /* LaunchScreen.storyboard */; };
 		8A2C800D21BE563300C53AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C800C21BE563300C53AA4 /* main.m */; };
 		8A2C801A21BE59AB00C53AA4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C801921BE59AB00C53AA4 /* MainViewController.m */; };
-		8A2C801D21BE6F8900C53AA4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C801C21BE6F8900C53AA4 /* LoginViewController.m */; };
+		8A2C802121BF444600C53AA4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C802021BF444600C53AA4 /* BaseViewController.m */; };
+		8A2C802721BFAB5900C53AA4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C802621BFAB5900C53AA4 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,10 @@
 		8A2C800C21BE563300C53AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A2C801821BE59AB00C53AA4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8A2C801921BE59AB00C53AA4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		8A2C801B21BE6F8900C53AA4 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		8A2C801C21BE6F8900C53AA4 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8A2C801F21BF444600C53AA4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8A2C802021BF444600C53AA4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8A2C802521BFAB5900C53AA4 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8A2C802621BFAB5900C53AA4 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C80F73F246EC08A76246C1C9 /* Pods-ip116.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ip116.release.xcconfig"; path = "Pods/Target Support Files/Pods-ip116/Pods-ip116.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +114,7 @@
 		8A2C801421BE57F600C53AA4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8A2C801E21BF441D00C53AA4 /* BaseViewController */,
 				8A2C801521BE580800C53AA4 /* LoginViewController */,
 				8A2C801321BE57CF00C53AA4 /* MainViewController */,
 			);
@@ -120,8 +124,8 @@
 		8A2C801521BE580800C53AA4 /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8A2C801B21BE6F8900C53AA4 /* LoginViewController.h */,
-				8A2C801C21BE6F8900C53AA4 /* LoginViewController.m */,
+				8A2C802521BFAB5900C53AA4 /* LoginViewController.h */,
+				8A2C802621BFAB5900C53AA4 /* LoginViewController.m */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -138,6 +142,15 @@
 			children = (
 			);
 			path = "Macro definition ";
+			sourceTree = "<group>";
+		};
+		8A2C801E21BF441D00C53AA4 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C801F21BF444600C53AA4 /* BaseViewController.h */,
+				8A2C802021BF444600C53AA4 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A2C801D21BE6F8900C53AA4 /* LoginViewController.m in Sources */,
 				8A2C800D21BE563300C53AA4 /* main.m in Sources */,
+				8A2C802121BF444600C53AA4 /* BaseViewController.m in Sources */,
 				8A2C801A21BE59AB00C53AA4 /* MainViewController.m in Sources */,
 				8A2C7FFF21BE563100C53AA4 /* AppDelegate.m in Sources */,
+				8A2C802721BFAB5900C53AA4 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
